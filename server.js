@@ -18,7 +18,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://airtuer-fontend.vercel.app',
   methods: ['GET', 'POST', 'DELETE'],
   credentials: true
 }));
